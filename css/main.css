@@ -1,1 +1,40 @@
-body {}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.apple-header {
+    width: 980px;
+    height: 36px;
+    margin: 66px auto;
+    position: relative;
+    top: 18px;
+    bottom: -18px;
+    border-radius: 4px;
+    background: linear-gradient(to right, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(to left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+}
+
+#billboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 292px;
+    left: 0;
+    overflow: hidden;
+    height: 538px;
+}
+
+#billboard .your-verse {
+    right: auto;
+    left: 50%;
+    margin-left: -720px;
+    width: 1440px;
+    background: url("/img/hero.jpeg") 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+}
+
+#billboard .hero {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
