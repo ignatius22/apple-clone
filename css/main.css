@@ -100,12 +100,32 @@ h2 {
     bottom: 90px;
 }
 
+.iphone-5s {
+    background-image: url('/img/promo_iphone5s.jpg');
+    background-size: 337px 200px;
+}
+
+.iphone-5c {
+    background-image: url('/img/promo_iphone5c.jpg');
+    background-size: 337px 200px;
+}
+
+.promo-30-years {
+    background-image: url('/img/promo_30_years.jpg');
+    background-size: 337px 200px;
+}
+
+.promo-supplier {
+    background-image: url('/img/promo_supplier_responsibility.jpg');
+    background-size: 341px 200px;
+}
+
 .promotions-images {
     display: flex;
     justify-content: center;
     margin-top: 0;
-    margin-left: -50px;
-    margin-right: 4px;
+    margin-left: -55px;
+    margin-right: 0;
 }
 
 .promotions-images li {
