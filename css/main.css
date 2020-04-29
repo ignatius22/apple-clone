@@ -151,3 +151,12 @@ h2 {
     position: absolute;
     top: 740px;
 }
+
+.wrapper {
+    width: 980px;
+    height: 56px;
+    margin-left: 185.5px;
+    margin-right: 185.5px;
+    padding-bottom: 26.002px;
+    padding-top: 10.001px;
+}
