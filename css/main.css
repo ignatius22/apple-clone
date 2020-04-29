@@ -11,7 +11,13 @@ body {
     top: 18px;
     bottom: -18px;
     border-radius: 4px;
-    background: linear-gradient(to right, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(to left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+    display: block;
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient( to left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+}
+
+.apple-nav {
+    width: 845px;
+    height: 36px;
 }
 
 #billboard {
@@ -29,8 +35,48 @@ body {
     left: 50%;
     margin-left: -720px;
     width: 1440px;
-    background: url("/img/hero.jpeg") 50% 100% no-repeat;
+    background: url('/img/hero.jpeg') 50% 100% no-repeat;
     background-size: 1440px 1315px;
+}
+
+#billboard .subhead-image img {
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 36px;
+    height: 104px;
+    width: 1440px;
+    margin: 0;
+}
+
+.verse-image {
+    width: 980px;
+    height: 104px;
+    margin: 0 230px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 27px;
+    height: 82px;
+    width: 1440px;
+}
+
+.subhead-image {
+    width: 980px;
+    height: 82px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.center {
+    margin: auto auto;
+    height: 31px;
+    width: 1440px;
 }
 
 #billboard .hero {
