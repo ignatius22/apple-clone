@@ -39,18 +39,20 @@ body {
     background-size: 1440px 1315px;
 }
 
-#billboard .subhead-image img {
-    display: none;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 h1 {
     font-size: 24px;
     line-height: 36px;
     height: 104px;
     width: 1440px;
     margin: 0;
+}
+
+.sub-heading {
+    background-image: url('/img/your_verse_subhead_small.png');
+    background-size: 980px 82px;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .verse-image {
@@ -77,10 +79,36 @@ h2 {
     margin: auto auto;
     height: 31px;
     width: 1440px;
+    background-image: url('/img/cta_your_verse_27pt.png');
+    background-size: 980px 64px;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+
+/* .center-image {
+    width: 980px;
+    height: 64px;
+} */
+
+.promotions {
+    width: 1351px;
+    height: 200px;
+    position: relative;
+    top: 540px;
+    bottom: 90px;
 }
 
 #billboard .hero {
     position: absolute;
     top: 0;
     bottom: 0;
+}
+
+.main-footer {
+    width: 1351px;
+    height: 90px;
+    position: absolute;
+    top: 740px;
 }
