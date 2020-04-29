@@ -100,6 +100,29 @@ h2 {
     bottom: 90px;
 }
 
+.promotions-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: -50px;
+    margin-right: 4px;
+}
+
+.promotions-images li {
+    list-style: none;
+    margin-left: 3px;
+}
+
+.promo {
+    width: 337px;
+    height: 200px;
+}
+
+.last-promo {
+    width: 341px;
+    height: 200px;
+}
+
 #billboard .hero {
     position: absolute;
     top: 0;
