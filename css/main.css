@@ -19,6 +19,23 @@ body {
     background: linear-gradient( to right, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient( to left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
 }
 
+.search {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.form input {
+    width: 106px;
+    height: 16px;
+    margin-top: -2px;
+    background-image: url('/img/globalsearch_field.png');
+    background-repeat: no-repeat;
+    background-size: 106px 33px;
+    border: none;
+    border-radius: 8px;
+}
+
 .apple-nav {
     width: 900px;
     height: 36px;
