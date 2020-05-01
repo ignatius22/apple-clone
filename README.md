@@ -1,6 +1,6 @@
 # BUILDING WITH BACKGROUNDS AND GRADIENTS
 
-> This project consists of building an HTML document that matches the appearance of position and floating.
+> This project consists of building an HTML document that matches the appearance of backgrounds and gradients.
 
 ![screenshot](./app_screenshot.png)
 
