@@ -153,25 +153,6 @@ ul li:hover {
   background-repeat: no-repeat;
 }
 
-
-/* .form {
-    margin-left: 0.6em;
-    padding-left: 0.6em;
-    height: 35px;
-    margin-top: 1px;
-}
-
-.form input {
-    width: 106px;
-    height: 16px;
-    margin-top: -2px;
-    background-image: url('../img/globalsearch_field.png');
-    background-repeat: no-repeat;
-    background-size: 106px 33px;
-    border: none;
-    border-radius: 8px;
-} */
-
 .center {
   margin: auto auto;
   height: 31px;
