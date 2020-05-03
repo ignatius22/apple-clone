@@ -1,163 +1,160 @@
 body {
-    padding: 0;
-    margin: 0;
-    font: 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
-    background-color: transparent;
-    color: #333;
-    -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  font: 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  background-color: transparent;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
 }
 
 .apple-header {
-    background: linear-gradient( to right, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient( to left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
-    width: 930px;
-    height: 36px;
-    margin-left: 187px;
-    margin-top: 55px;
-    display: flex;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient(to left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(to bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  width: 930px;
+  height: 36px;
+  margin-left: 187px;
+  margin-top: 55px;
+  display: flex;
 }
 
 input {
-    width: 106px;
-    height: 18px;
-    border-radius: 10px;
+  width: 106px;
+  height: 18px;
+  border-radius: 10px;
 }
 
 .input-img {
-    background-image: url('../img/globalsearch_field.png');
+  background-image: url('../img/globalsearch_field.png');
 }
 
 .globalsearch {
-    align-self: center;
-    padding: 12px;
+  align-self: center;
+  padding: 12px;
 }
 
 .billboard {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 292px;
-    left: 0;
-    overflow: hidden;
-    height: 538px;
-}
-
-.billboard {
-    position: relative;
-    background: url('/img/hero.jpeg') 50% 100% no-repeat;
-    background-size: 1351px 1315px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
+  height: 538px;
+  background: url('/img/hero.jpeg') 50% 100% no-repeat;
+  background-size: 1351px 1315px;
 }
 
 .header {
-    width: 1440px;
-    height: 235px;
-    position: relative;
-    top: 269px;
-    bottom: 104px;
-    margin-top: -200px;
-    padding-left: 50px;
-    padding-right: 50px;
+  width: 1440px;
+  height: 235px;
+  position: relative;
+  top: 269px;
+  bottom: 104px;
+  margin-top: -200px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1 {
-    width: 1440px;
-    height: 104px;
-    margin-bottom: -9px;
-    margin-top: 0;
-    margin-left: 230px;
-    margin-right: 230px;
+  width: 1440px;
+  height: 104px;
+  margin-bottom: -9px;
+  margin-top: 0;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 .title {
-    background-image: url('../img/your_verse_title_small.png');
-    background-size: 980px 104px;
-    background-repeat: no-repeat;
+  background-image: url('../img/your_verse_title_small.png');
+  background-size: 980px 104px;
+  background-repeat: no-repeat;
 }
 
 .sub-heading {
-    background-image: url('/img/your_verse_subhead_small.png');
-    background-size: 980px 82px;
-    background-repeat: no-repeat;
-    margin-left: 230px;
-    margin-right: 230px;
+  background-image: url('/img/your_verse_subhead_small.png');
+  background-size: 980px 82px;
+  background-repeat: no-repeat;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 27px;
-    height: 82px;
-    width: 1440px;
+  margin-top: 0;
+  margin-bottom: 27px;
+  height: 82px;
+  width: 1440px;
 }
 
 .left-2 li,
 .rightside li {
-    margin-left: 0.6em;
-    padding-left: 0.6em;
-    border-left: 1px solid #ccc;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+  list-style: none;
+  display: inline-block;
 }
 
 .promotions-images li {
-    list-style: none;
-    margin-left: 3px;
+  list-style: none;
+  margin-left: 3px;
 }
 
 .subhead-image {
-    width: 980px;
-    height: 82px;
-    margin-left: 230px;
-    margin-right: 230px;
+  width: 980px;
+  height: 82px;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
-.rightside li,
-.left-2 li {
-    list-style: none;
-    display: inline-block;
+a {
+  color: #08c;
+  text-decoration: none;
 }
 
 .globalnav li {
-    border-right: 1px #ccc solid;
-    text-align: center;
-    height: 100%;
+  border-right: 1px #ccc solid;
+  text-align: center;
+  height: 100%;
 }
 
 .apple-header ul {
-    list-style: none;
-    display: flex;
-    width: 800px;
-    height: 36px;
-    text-align: center;
-    padding-left: 0;
+  list-style: none;
+  display: flex;
+  width: 800px;
+  height: 36px;
+  text-align: center;
+  padding-left: 0;
 }
 
 .apple-header ul li {
-    width: 106px;
-    height: 100%;
-    border-right: 1px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    position: relative;
-    bottom: 13px;
+  width: 106px;
+  height: 100%;
+  border-right: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  bottom: 13px;
 }
 
 .apple-header ul li a {
-    color: #fff;
+  color: #fff;
 }
 
 ul li:hover {
-    background-color: #333;
-    cursor: pointer;
+  background-color: #333;
+  cursor: pointer;
 }
 
 .apple {
-    background-image: url('../img/apple.png');
-    background-position: center;
-    background-size: 15px 16px;
-    background-repeat: no-repeat;
+  background-image: url('../img/apple.png');
+  background-position: center;
+  background-size: 15px 16px;
+  background-repeat: no-repeat;
 }
 
 
-/*.form {
+/* .form {
     margin-left: 0.6em;
     padding-left: 0.6em;
     height: 35px;
@@ -173,135 +170,130 @@ ul li:hover {
     background-size: 106px 33px;
     border: none;
     border-radius: 8px;
-}*/
+} */
 
 .center {
-    margin: auto auto;
-    height: 31px;
-    width: 1440px;
-    background-image: url('../img/cta_your_verse_27pt.png');
-    background-size: 980px 64px;
-    background-repeat: no-repeat;
-    margin-left: 230px;
-    margin-right: 230px;
+  margin: auto auto;
+  height: 31px;
+  width: 1440px;
+  background-image: url('../img/cta_your_verse_27pt.png');
+  background-size: 980px 64px;
+  background-repeat: no-repeat;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 .promotions {
-    position: absolute;
-    z-index: 1;
-    top: 540px;
-    bottom: 90px;
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 540px;
+  bottom: 90px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
 }
 
 .iphone-5s,
 .iphone-5c,
 .promo-30-years {
-    background-size: 337.75px 200px;
+  background-size: 337.75px 200px;
 }
 
 .iphone-5s {
-    background-image: url('/img/promo_iphone5s.jpg');
+  background-image: url('/img/promo_iphone5s.jpg');
 }
 
 .iphone-5c {
-    background-image: url('/img/promo_iphone5c.jpg');
+  background-image: url('/img/promo_iphone5c.jpg');
 }
 
 .promo-30-years {
-    background-image: url('/img/promo_30_years.jpg');
+  background-image: url('/img/promo_30_years.jpg');
 }
 
 .promo-supplier {
-    background-image: url('/img/promo_supplier_responsibility.jpg');
+  background-image: url('/img/promo_supplier_responsibility.jpg');
 }
 
 .promotions-images {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .promo {
-    width: 337px;
-    height: 200px;
+  width: 337px;
+  height: 200px;
 }
 
 .last-promo {
-    width: 341px;
-    height: 200px;
+  width: 341px;
+  height: 200px;
 }
 
 .main-footer {
-    width: 1351px;
-    height: 90px;
-    position: absolute;
-    top: 740px;
-    color: #6e6e6e;
-    font-size: 0.8334em;
-    line-height: 1.2;
-    margin-top: -10px;
+  width: 1351px;
+  height: 90px;
+  position: absolute;
+  top: 740px;
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 1.2;
+  margin-top: -10px;
 }
 
 .wrapper {
-    width: 980px;
-    height: 56px;
-    margin-left: 185.5px;
-    margin-right: 185.5px;
-    padding-bottom: 26.002px;
-    padding-top: 10.001px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  width: 980px;
+  height: 56px;
+  margin-left: 185.5px;
+  margin-right: 185.5px;
+  padding-bottom: 26.002px;
+  padding-top: 10.001px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .leftside {
-    width: 480.188px;
-    height: 12px;
-    padding-top: 15.001px;
+  width: 480.188px;
+  height: 12px;
+  padding-top: 15.001px;
 }
 
 .rightside {
-    width: 587.797px;
-    height: 12px;
-    padding-top: 15.001px;
-    position: relative;
-    top: -5px;
+  width: 587.797px;
+  height: 12px;
+  padding-top: 15.001px;
+  position: relative;
+  top: -5px;
 }
 
 .left {
-    width: 480.188px;
-    height: 12px;
-    padding-top: 15.001px;
-    display: flex;
-    margin-top: -23px;
+  width: 480.188px;
+  height: 12px;
+  padding-top: 15.001px;
+  display: flex;
+  margin-top: -23px;
 }
 
 .copyright {
-    width: 209.7px;
-    height: 11px;
+  width: 209.7px;
+  height: 11px;
 }
 
 .left-2 {
-    height: 11px;
-    width: 175.16px;
-    margin-left: -38px;
-}
-
-a {
-    color: #08c;
-    text-decoration: none;
+  height: 11px;
+  width: 175.16px;
+  margin-left: -38px;
 }
 
 .first {
-    width: 58.906px;
-    height: 12px;
+  width: 58.906px;
+  height: 12px;
 }
 
 .last-child {
-    width: 16px;
-    height: 12px;
-    position: relative;
-    top: 4px;
+  width: 16px;
+  height: 12px;
+  position: relative;
+  top: 4px;
 }
