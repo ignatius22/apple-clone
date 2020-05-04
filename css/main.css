@@ -24,7 +24,7 @@ input {
 }
 
 .input-img {
-    background-image: url('/img/globalsearch_field.png');
+    background-image: url('../img/globalsearch_field.png');
 }
 
 .globalsearch {
