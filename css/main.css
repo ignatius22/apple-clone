@@ -71,7 +71,7 @@ h1 {
 }
 
 .sub-heading {
-    background-image: url('/img/your_verse_subhead_small.png');
+    background-image: url('../img/your_verse_subhead_small.png');
     background-size: 980px 82px;
     background-repeat: no-repeat;
     margin-left: 230px;
@@ -182,19 +182,19 @@ ul li:hover {
 }
 
 .iphone-5s {
-    background-image: url('/img/promo_iphone5s.jpg');
+    background-image: url('../img/promo_iphone5s.jpg');
 }
 
 .iphone-5c {
-    background-image: url('/img/promo_iphone5c.jpg');
+    background-image: url('../img/promo_iphone5c.jpg');
 }
 
 .promo-30-years {
-    background-image: url('/img/promo_30_years.jpg');
+    background-image: url('../img/promo_30_years.jpg');
 }
 
 .promo-supplier {
-    background-image: url('/img/promo_supplier_responsibility.jpg');
+    background-image: url('../img/promo_supplier_responsibility.jpg');
 }
 
 .promotions-images {
