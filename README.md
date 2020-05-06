@@ -1,8 +1,8 @@
 # BUILDING WITH BACKGROUNDS AND GRADIENTS
 
-> This project consists of building an HTML document that matches the appearance of backgrounds and gradients.
 
-![screenshot](./app_screenshot.png)
+
+![screenshot](img/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/ignatius22/apple-clone/2fbbb96d7a6a8a08314cb101fa12bf6e931a4d05/index.html)
 
 
 ## Getting Started
